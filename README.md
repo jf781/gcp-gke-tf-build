@@ -33,6 +33,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_gcp_creds"></a> [gcp\_creds](#input\_gcp\_creds) | Defines the contents of the GCP credentials file | `any` | n/a | yes |
 | <a name="input_gke_cluster_name"></a> [gke\_cluster\_name](#input\_gke\_cluster\_name) | Defines the GKE cluster name | `any` | n/a | yes |
 | <a name="input_gke_num_nodes"></a> [gke\_num\_nodes](#input\_gke\_num\_nodes) | Defines the initial number of GKE nodes | `number` | `2` | no |
 | <a name="input_gke_username"></a> [gke\_username](#input\_gke\_username) | gke username | `string` | `"Defines the username for the GKE cluster"` | no |

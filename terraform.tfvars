@@ -1,8 +1,8 @@
-project_id = "ardent-strategy-420320"
+project_id = "papajohns-demo-420321"
 region     = "us-central1"
-gke_cluster_name = "gke-cluster-1234"
-vpc_name = "vpc-1234"
-subnet_name = "subnet-1234"
+gke_cluster_name = "pjdemo-cluster-1"
+vpc_name = "pjdemo-vpc"
+subnet_name = "pjdemo-subnet01"
 
 # project_id = "___gcp_project_id___"
 # region     = "___gcp_region___"
