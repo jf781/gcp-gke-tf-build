@@ -1,12 +1,12 @@
 
 output "region" {
   value       = var.region
-  description = "GCloud Region"
+  description = "GCP Region"
 }
 
 output "project_id" {
   value       = var.project_id
-  description = "GCloud Project ID"
+  description = "GCP Project ID"
 }
 
 output "kubernetes_cluster_name" {
