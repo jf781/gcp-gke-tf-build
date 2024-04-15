@@ -10,4 +10,17 @@ terraform {
   }
 
   required_version = ">= 0.14"
+
+  cloud {
+    organization = "___TFC_ORG_NAME___"
+    workspaces {
+      name = "___WORKSPACE_NAME___"
+    }
+  }
+}
+
+provider "google" {
+  credentials = var.gcp_creds
+  project     = var.project_id
+  region      = var.region
 }
