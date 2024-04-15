@@ -28,6 +28,6 @@ variable "region" {
   description = "Defines the region the to deploy resources into."
 }
 
-variable "gcp_creds" {
-  description = "Defines the contents of the GCP credentials file"
-}
+# variable "gcp_creds" {
+#   description = "Defines the contents of the GCP credentials file"
+# }

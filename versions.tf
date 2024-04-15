@@ -20,7 +20,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = jsondecode(base64decode(var.gcp_creds))
+  # credentials = jsondecode(base64decode(var.gcp_creds))
   project     = var.project_id
   region      = var.region
 }
